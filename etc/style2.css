@@ -1,0 +1,149 @@
+.tit {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.titt {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10%;
+  font-size: 24px;
+}
+
+.high {
+  height: 400px;
+  margin-right: 12%;
+}
+
+.cen {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 800px;
+  grid-gap: 10%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.line {
+  margin-left: 20px;
+}
+
+.text1 {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navbar ul {
+  list-style-type: none;
+  background-color: hsl(0, 0%, 27%);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+div {
+  display: block;
+}
+
+.navbar a:hover {
+  background-color: hsl(0, 0%, 15%);
+}
+
+main {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 800px;
+}
+
+@media only screen and (min-width: 1420px) {
+  .navbar {
+    background-color: hsl(0, 0%, 29%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .poz {
+    height: 700px;
+    margin-left: -80%;
+  }
+
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .navbar li {
+    flex: mone;
+  }
+
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 40px;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    transition: opacity 0.15s;
+  }
+
+  .navbar a:hover {
+    opacity: 0.4;
+    background-color: hsl(0, 0%, 0%);
+  }
+
+  .navbar {
+    margin-bottom: 10%;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .navbar {
+    width: 180%;
+  }
+
+  .poz {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-left: 20%;
+  }
+
+  .text1 {
+    margin-left: 20%;
+    width: 120%;
+  }
+
+  .tit {
+    text-align: center;
+    margin-left: 30%;
+    width: 120%;
+  }
+}
